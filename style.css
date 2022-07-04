@@ -12,7 +12,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -54,4 +54,29 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.shadow {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    
+}
+
+.experience {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid blue;
+}
+#baby{
+    border-left: 7px solid rgb(205, 21, 39);
+}
+footer p{
+    text-align: center;
 }
